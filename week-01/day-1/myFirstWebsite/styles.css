@@ -1,0 +1,56 @@
+.topnav{
+    background-color:#333333;
+    padding: 20px 10%;
+
+}
+.topnav a {
+    color:#ff0099;
+    float: right;
+    margin: 20px;
+    font-size: 17px;
+    font-family: 'Courier New';
+}
+body {
+    background-image: url("assets/background.png");
+
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#separator{
+    text-align: center;
+    font-size: 32;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32pt;
+}
+header{
+    margin:0;
+    padding:0;
+}
+.title p{
+    font-size: 28px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#header {
+    padding: 0
+}
+#main p, h1{
+    padding-left: 10%;
+    padding-right: 10%;
+}

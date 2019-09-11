@@ -1,0 +1,36 @@
+.top{
+    background: gray;
+    border: black 2px solid;
+    margin: 0;
+    padding:  20px 10%;
+    font-size: 32px;
+    font-weight: bold;
+}
+.done_comments{
+    border: 1px solid black;
+    background-color: cadetblue
+}
+#main{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+body{
+    background-image: url(assets/background.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+.button {
+    background-color: navajowhite;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  textarea {
+    width: 600px;
+    height: 150px;
+  }
