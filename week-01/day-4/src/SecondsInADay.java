@@ -8,11 +8,11 @@ public class SecondsInADay {
         int totalMinutes = 60;
         int totalSeconds = 60;
 
-        int remainingHours = totalHours -currentHours;
+        int remainingHours = totalHours - currentHours;
         int remainingMinutes = totalMinutes - currentMinutes;
-        int remainingSeconds = totalSeconds -currentSeconds;
+        int remainingSeconds = totalSeconds - currentSeconds;
 
-        int totalRemainingSeconds = (remainingHours*60*60) + (remainingMinutes*60) + remainingSeconds;
+        int totalRemainingSeconds = (remainingHours * 60 * 60) + (remainingMinutes * 60) + remainingSeconds;
 
         System.out.println("The remaining seconds from this day are: " + totalRemainingSeconds);
         // Write a program that prints the remaining seconds (as an integer) from a

@@ -11,7 +11,7 @@ public class Cuboid {
         int height = 6;
         int width = 3;
 
-        System.out.println("Surface Area: " + 2* ((width*length) + (width*height) + (length*height)));
+        System.out.println("Surface Area: " + 2 * ((width * length) + (width * height) + (length * height)));
         System.out.println("Volume: " + length * width * height);
     }
 }
