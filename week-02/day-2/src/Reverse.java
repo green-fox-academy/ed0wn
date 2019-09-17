@@ -6,6 +6,12 @@ public class Reverse {
         // Use it on this reversed string to check it!
         // Try to solve this using charAt() first, and optionally anything else after.
 
-        System.out.println(reverse(reversed));
+
+        StringBuilder str= new StringBuilder(reversed);
+        str.reverse();
+        reversed = str.toString();
+
+
+        System.out.println(reversed);
     }
 }
