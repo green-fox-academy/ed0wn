@@ -37,38 +37,6 @@ public class FunctionToCenter {
 
         }
 
-//        for (int i : x) {
-//            int x1=x[i];
-//            x[i]+=20;
-//
-//            for (int j : y) {
-//                int y1 = y[j];
-//                y[j]+=20;
-//                line(x1, y1, graphics);
-//            }
-//        }
-//        for (int i = 0; i < x.length; i++) {
-//            int x1 = x[i];
-//            if (x[i] == HEIGHT) {
-//                x[i] = 0;
-//
-//            } else {
-//                x[i] += 20;
-//            }
-//            for (int j = 0; j < y.length + 1; j++) {
-//                int y1 = y[j];
-//
-//                if (y[j] == HEIGHT) {
-//                    x[i] += 20;
-//                } else {
-//                    y[j] += 20;
-//                }
-//                line(x1, y1, graphics);
-//
-//            }
-//        }
-//
-//
     }
 
     public static void line(int x, int y, Graphics graphics) {
