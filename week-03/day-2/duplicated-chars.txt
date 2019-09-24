@@ -1,22 +1,22 @@
-The Zen of Python
-by Tim Peters
+TeZno yhn
+b i ees
 
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
+Batfli etrta gy
+Epii sbte hnipii.
+Sml sbte hncmlx
+Cmlxi etrta opiae.
+Fa sbte hnnse.
+Sas sbte hndne
+Raaiiycut.
+Seilcssae' pca nuht ra h ue.
+Atog rciaiybasprt.
+Err hudnvrps iety
+Uls xlctyslne.
+I h aeo miut,rfs h epaint us.
+Teesol eoe-adpeeal nyoe-ovoswyt oi.
+Atog htwymyntb biu tfrtuls o'eDth
+Nwi etrta ee.
+Atog ee sotnbte hn*ih*nw
+I h mlmnaini adt xli,i'  a da
+I h mlmnaini ayt xli,i a eago da
+Nmsae r n okn ra da- e' omr ftoe
