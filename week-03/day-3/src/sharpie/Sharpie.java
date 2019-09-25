@@ -6,6 +6,6 @@ public class Sharpie {
   static float inkAmount=100;
 
   public void use(){
-    inkAmount-=1;
+    inkAmount--;
   }
 }
