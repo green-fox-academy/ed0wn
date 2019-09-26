@@ -1,4 +1,4 @@
-package animal;
+package farm;
 
 public class Animal {
   int hunger;
