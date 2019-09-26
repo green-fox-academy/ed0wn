@@ -3,9 +3,15 @@ package sharpie;
 public class Sharpie {
   String color;
   float width;
-  static float inkAmount=100;
+  float inkAmount;
 
-  public void use(){
+  public Sharpie(String color, float width) {
+    this.color = color;
+    this.width = width;
+    this.inkAmount=100;
+  }
+
+  public void use() {
     inkAmount--;
   }
 }
