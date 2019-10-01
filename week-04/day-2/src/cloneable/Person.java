@@ -46,4 +46,8 @@ public class Person implements Cloneable {
     this.name = name;
   }
 
+  @Override
+  protected Object clone() throws CloneNotSupportedException {
+    return super.clone();
+  }
 }

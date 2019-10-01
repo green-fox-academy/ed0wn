@@ -1,6 +1,6 @@
 package cloneable;
 
-public class Student extends Person {
+public class Student extends Person implements Cloneable{
   private String previousOrganization;
   private int skippedDays;
 
