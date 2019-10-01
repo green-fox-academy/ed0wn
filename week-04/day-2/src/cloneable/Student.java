@@ -26,6 +26,10 @@ public class Student extends Person {
     this.previousOrganization= previousOrganization;
   }
 
+  public String getPreviousOrganization() {
+    return previousOrganization;
+  }
+
   Student() {
     super();
     previousOrganization = "The School of Life";
@@ -33,6 +37,6 @@ public class Student extends Person {
 
   }
   protected Student clone(){
-    return this;
+    return new Student(this.getName(),this.getAge(),this.getGender(),this.getPreviousOrganization());
   }
 }
