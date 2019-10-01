@@ -16,7 +16,7 @@ public class Main {
 
     Collections.sort(dominoes);
 
-    List fleet = new ArrayList();
+    List <Thing>fleet = new ArrayList();
     // - You have the `Thing` class
     // - You have the `Fleet` class
     // - You have the `FleetOfThings` class with a `main` method
