@@ -16,6 +16,5 @@ public class AppendAFunc {
     public static String appendAFunc(String typo) {
         typo="Chinchill";
         return typo+"a";
-
     }
 }
