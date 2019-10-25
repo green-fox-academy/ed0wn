@@ -1,0 +1,23 @@
+body{
+    padding: 5%;
+}
+input{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid rgb(red, green, rgb(143, 138, 163));
+    color: rgb(143, 138, 163);
+    outline-width: 0px;
+    width: 30%;
+}
+input:hover{
+    border-bottom: 3px solid aquamarine;
+}
+div{
+    padding-bottom: 10px;
+}
+h1{
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
