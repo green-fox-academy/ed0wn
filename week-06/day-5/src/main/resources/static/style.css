@@ -1,0 +1,51 @@
+body{
+    margin:10%;
+}
+h1 {
+    color: aqua;
+    font-size: 60px;
+    border-bottom: 2px solid aqua;
+}
+a{
+    color:white;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+table{
+    width: 100%;
+}
+th{
+    background:aqua;
+    height: 100px;
+    font-size: 30px;
+}
+.name{
+    font-size: 30px;
+    text-align: left;
+
+}
+tr{
+    height: 100px;
+}
+.description{
+    text-align: left;
+    font-size: 20px;
+}
+.price, .quantity{
+    text-align: center;
+    font-size: 40px;
+}
+.searchbutton{
+    padding: 15px;
+    font-size: 15px;
+    margin: 30px;
+}
+input{
+    width: 70%;
+    height: 30px;
+    margin: 30px;
+}
