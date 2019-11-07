@@ -10,6 +10,7 @@ public class BassGuitar extends StringedInstrument {
     numberOfStrings=4;
     name ="Bass Guitar";
   }
+
   BassGuitar(int numberOfStrings){
     this.numberOfStrings=numberOfStrings;
     name = "Bass Guitar";

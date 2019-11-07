@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank accounts</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Owner</th>
+        <th>Balance</th>
+        <th>Species</th>
+        <th>Index</th>
+        <th>Good or Bad</th>
+    </tr>
+
+    <tr th:each="bankaccount : ${account}" th:style="${bankaccount.isKing() ? 'background-color:yellow' : 'background-color:white'}">
+        <td th:text="${bankaccount.getName()}"></td>
+        <td th:text="${#numbers.formatDecimal(bankaccount.getBalance(),0,2)}+' Zebra'"></td>
+        <td th:text="${bankaccount.getAnimalType()}"></td>
+        <td th:text="${bankaccountStat.count}"></td>
+        <div th:switch="${bankaccount.isBad()}">
+            <td th:case="true">Bad guy</td>
+            <td th:case="false">Good guy<td/>
+        </div>
+    </tr>
+</table>
+<div th:each="bankaccount : ${account}" th:switch="${bankaccount.isKing()}" id="submit">
+    <form th:case="false" action="#" th:action="@{/show}" th:object="${ bankaccount.setBalance(bankaccount.getBalance()+10)}" method="post"></form>
+    <form th:case="true" action="#" th:action="@{/show}" th:object="${ bankaccount.setBalance(bankaccount.getBalance()+100)}" method="post"></form>
+</div>
+<button th:action="raise" type="submit">submit</button>
+
+</body>
+</html>

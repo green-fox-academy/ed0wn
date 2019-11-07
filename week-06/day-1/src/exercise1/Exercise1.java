@@ -27,10 +27,10 @@ public class Exercise1 {
             .collect(Collectors.toList());
     System.out.println(squaredValueIsBiggerThan20);
 
-    OptionalDouble averageOfOddNumber=numbers.stream()
+    numbers.stream()
             .filter(num -> num%2 == 1)
-            .mapToInt(num -> num).average();
-    System.out.println(averageOfOddNumber);
+            .mapToInt(num -> num).average().ifPresent(s -> System.out.println(s));
+
 
     List<Integer> numbers3 = Arrays.asList(5, 9, 1, 2, 3, 7, 5, 6, 7, 3, 7, 6, 8, 5, 4, 9, 6, 2);
     int sumOfOddNumbers = numbers3.stream()
