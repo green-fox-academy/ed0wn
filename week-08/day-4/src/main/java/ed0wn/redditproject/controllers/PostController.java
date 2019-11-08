@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 @Controller
@@ -25,7 +26,9 @@ public class PostController {
     if (page == null) {
       page = 0;
     }
-    model.addAttribute("posts",service.findAll().stream().skip(page*10).limit(10).sorted(Comparator.comparingInt(Post::getVotes).reversed()).collect(Collectors.toList()));
+    List<Post> postList;
+    postList=service.findAll().stream().sorted(Comparator.comparingInt(Post::getVotes).reversed()).collect(Collectors.toList());
+    model.addAttribute("posts",postList.stream().skip(page*10).limit(10).collect(Collectors.toList()));
     model.addAttribute("next", page + 1);
     if (page>1) {
       model.addAttribute("previous", page - 1);

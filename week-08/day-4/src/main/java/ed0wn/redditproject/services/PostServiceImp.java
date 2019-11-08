@@ -5,7 +5,6 @@ import ed0wn.redditproject.repositories.IPostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
