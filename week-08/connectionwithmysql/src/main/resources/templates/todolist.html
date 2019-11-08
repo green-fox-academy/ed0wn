@@ -8,7 +8,7 @@
 <h1>Todos for today</h1>
 <a href="/todo/add">Add new todo</a>
 <a href="/todo/assignees">Assignee list</a>
-<form th:action="@{/todo/search}" method="post">
+<form th:action="@{/todo/search}" method="post" th:object="${todo}">
     <input
             type="text"
             name="search"
@@ -29,21 +29,6 @@
         <td th:text="${todos.getTitle()}"></td>
         <td th:text="${todos.isDone()}"></td>
         <td th:text="${todos.isUrgent()}"></td>
-        <td>
-            <a th:href="@{'/todo/delete/'+ ${todos.id}}">delete</a>
-        </td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>E-mail</th>
-    </tr>
-    <tr th:each="todos : ${todo}">
-        <td th:text="${todos.getId()}"></td>
-        <td th:text="${todos.getTitle()}"></td>
-        <td th:text="${todos.isDone()}"></td>
         <td>
             <a th:href="@{'/todo/delete/'+ ${todos.id}}">delete</a>
         </td>
